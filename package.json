@@ -1,0 +1,26 @@
+{
+  "name": "react-file-upload",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "font-awesome": "4.7.0",
+    "json-server": "0.13.0",
+    "papaparse": "^5.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-file-reader": "^1.1.4",
+    "react-notifications": "^1.4.3",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "jsonServer": "json-server --watch db.json --port 3001"
+  }
+}
